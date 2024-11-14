@@ -9,7 +9,8 @@
     "moduleResolution": "bundler",
     "paths": {
       "@/*": ["./*"],
-      "tdesign-miniprogram/*": ["./node_modules/tdesign-miniprogram/miniprogram_dist/*"]
+      "tdesign-miniprogram/*": ["./node_modules/tdesign-miniprogram/miniprogram_dist/*"],
+      "@behaviors/*": ["behaviors/*"]
     },
     "resolveJsonModule": true,
     "types": ["miniprogram-api-typings"],

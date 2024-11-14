@@ -16,7 +16,7 @@
   "devDependencies": {
     "miniprogram-api-typings": "latest",
     "typescript": "latest",
-    "weapp-vite": "latest"
+    "weapp-vite": "^1.7.5"
   },
   "dependencies": {
     "tdesign-miniprogram": "^1.8.0"
