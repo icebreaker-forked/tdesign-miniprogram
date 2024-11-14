@@ -1,7 +1,8 @@
 {
   "description": "项目配置文件",
   "packOptions": {
-    "ignore": []
+    "ignore": [],
+    "include": []
   },
   "setting": {
     "urlCheck": false,
@@ -23,40 +24,28 @@
     "userConfirmedUseCompilerModuleSwitch": false,
     "showShadowRootInWxmlPanel": true,
     "skylineRenderEnable": true,
-    "bigPackageSizeSupport": true
+    "bigPackageSizeSupport": true,
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./dist"
+      }
+    ],
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
   },
   "compileType": "miniprogram",
   "libVersion": "3.6.3",
-  "appid": "wx6f3e38f61d138c04",
+  "appid": "wx8ebf411c136ff55d",
   "projectname": "TDesign",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "scripts": {},
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
-    "plugin": {
-      "current": -1,
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "gamePlugin": {
-      "current": -1,
-      "list": []
-    },
     "miniprogram": {
-      "current": 0,
       "list": [
         {
           "name": "skyline-home",
@@ -401,24 +390,30 @@
           "scene": null
         },
         {
-          "id": -1,
           "name": "search",
           "pathName": "pages/search/search",
+          "query": "",
           "scene": null
         },
         {
-          "id": -1,
           "name": "checkbox",
           "pathName": "pages/checkbox/checkbox",
+          "query": "",
           "scene": null
         },
         {
-          "id": -1,
           "name": "guide",
           "pathName": "pages/guide/guide",
+          "query": "",
           "scene": null
         }
       ]
     }
+  },
+  "miniprogramRoot": "dist/",
+  "srcMiniprogramRoot": "dist/",
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
   }
 }
